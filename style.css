@@ -1,0 +1,87 @@
+*{
+    color: aliceblue;
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+    background-image: url(imgs/pexels-pixabay-247791.jpg);
+}
+.formulario{
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    background-color: #464444ce;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+}
+input{
+    width: 100%;
+    border: none;
+    padding: 10px 0;
+    text-align: center;
+    color: #000;
+    outline: none;
+    background-color: #fff;
+    font-size: 16px;
+    margin-top: 30px;
+    color: black;
+    border-radius: 5px
+}
+button{
+    width: 100%;
+    padding: 10px 0;
+    background-color: #e404e6;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: transform 0.5s;
+    transition: 0.5s;
+    border-radius: 5px
+}
+button:hover{
+    background-color: #910394;
+    transform: scale(0.97);
+}
+footer{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    justify-content: center;
+    border-top: 1px solid aliceblue;
+    width: 99%;
+    padding: 20px 0;
+    pointer-events: none;
+}
+h1{
+    text-align: center;
+    position: absolute;
+    top: 0;
+    font-size: 40px;
+    letter-spacing: 5px;
+    pointer-events: none;
+    color: #e404e6;
+}
+
+@media screen and (max-width: 500px){
+    .formulario{
+        background-color: transparent;
+        padding: none;
+    }
+}
+@media screen and (max-width: 425px){
+    .formulario{
+        width: 300px;
+    }
+
+}
+@media screen and (max-width: 320px){
+    .formulario{
+        width: 200px;
+    }
+
+}
